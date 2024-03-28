@@ -1,0 +1,96 @@
+/*
+Theme Name: Sample Theme
+Theme URI: https://yourwebsite.com/my-custom-theme
+Author: Mohsin Gillani
+Author URI: https://yourwebsite.com
+Description: A custom WordPress theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sample
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .container-900 {
+    max-width: 900px;
+    margin: 0 auto;   
+  }
+  
+  /* Navigation styles */
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .post-feature-image img{
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .container {
+    background-color: #efefef;
+  }
+  
+  main {
+    width: 60%;
+    float: left;
+    padding: 20px;
+  }
+
+  aside {
+    width: 40%;
+    float: right;
+    padding: 20px;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
