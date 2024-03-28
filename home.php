@@ -7,7 +7,7 @@
         while ( have_posts() ) : the_post();?>
           <h3><?php the_title(); ?></h3>
           <p class="post-info">
-          <!--test comment -->
+          <!--test comment changed -->
             <?php 
                 echo "Written by: " . get_the_author(); 
                 echo " <br /> "; 
